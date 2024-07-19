@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Auxiliary</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+</head>
+
+<style>
+    .tab-pane img {
+        height: 150px;
+        width: 100%;
+        border-radius: 60px;
+    }
+</style>
+
+<body style="overflow-x: hidden">
+    <header class="header" id="header">
+        <nav class="navbar container-fluid" style="height: auto">
+            <section class="navbar__left position-relative top-50">
+                <a class="navbar-brand" href="./index.html" style="height: auto">
+                    <img src="/" width="136" alt="Logo" height="auto"
+                        style="padding-top: 0px; padding-bottom: 0px; margin-top: 0px" /></a>
+                <div class="burger" id="burger">
+                    <span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span>
+                </div>
+            </section>
+            <section class="navbar__center">
+                <span class="overlay"></span>
+                <div class="menu" id="menu">
+                    <div class="menu__header">
+                        <span class="menu__arrow"><i class="bx bx-chevron-left"></i></span><span
+                            class="menu__title"></span>
+                    </div>
+                    <ul class="menu__inner">
+                        <li class="menu__item">
+                            <a href="./index.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item menu__dropdown">
+                            <a href="#" class="menu__link">
+                                Our Company <i class="bx bx-chevron-right"></i></a>
+                            <div class="submenu megamenu__text">
+                                <div class="submenu__inner">
+                                    <h4 class="submenu__title">Overview</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="#"> OUR VALUES &
+                                                CERTIFICATIONS</a></li>
+                                        <li><a href="#"> Our MISSION
+                                            </a></li>
+                                        <li><a href="#">Productoin</a></li>
+                                        <li><a href="#">R&amp;D</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="submenu__inner">
+                                    <h4 class="submenu__title">News</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#"> Publiation</a></li>
+                                        <li><a href="#"> FAQ</a></li>
+
+                                    </ul>
+                                </div>
+                                <!-- <div class="submenu__inner">
+                                    <h4 class="submenu__title">Research</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="#">Displays</a></li>
+                                        <li><a href="#">Functional Matrials</a></li>
+                                        <li><a href="#">Custom Synthesis</a></li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </li>
+                        <li class="menu__item menu__dropdown">
+                            <a href="#" class="menu__link">
+                                Business Area <i class="bx bx-chevron-right"></i></a>
+                            <div class="submenu megamenu__text">
+                                <div class="submenu__inner">
+                                    <h4 class="submenu__title">Textile Dyes</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="../Reactive.html">Reactive Dyes</a></li>
+                                        <li><a href="../Dispers dyes/dispers.html">Disperse Dyes</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="submenu__inner">
+                                    <h4 class="submenu__title">Textile Auxiliary</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="#">Pretreatment Series</a></li>
+                                        <li><a href="#">Dyeing Series</a></li>
+                                        <li><a href="#">Finishing Series</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="submenu__inner">
+                                    <h4 class="submenu__title">Organic Matrials</h4>
+                                    <ul class="submenu__list">
+                                        <li><a href="#">Displays</a></li>
+                                        <li><a href="#">Functional Matrials</a></li>
+                                        <li><a href="#">Custom Synthesis</a></li>
+                                        <li><a href="#">Pigments</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__dropdown">
+                            <a href="#" class="menu__link">
+                                Sustainability <i class="bx bx-chevron-right"></i></a>
+                            <div class="submenu megamenu__normal">
+                                <ul class="submenu__list">
+                                    <li><a href="#">Ethical Management</a></li>
+                                    <li><a href="#">Qualification</a></li>
+                                    <li><a href="#">ESG Management</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <!-- Start: NMDIGbanner -->
+    <div style="height: auto; padding-top: 100px">
+        <!-- Start: Header -->
+        <div class="header-blue" style="
+        background-image: url('./assets/img/Auxiliary\ img/d10.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+      ">
+            <div class="row">
+                <!-- Start: Text -->
+                <div class="col-md-6 col-lg-5 col-xl-5 offset-lg-1" style="
+              background-color: rgba(78, 70, 70, 0.87);
+              margin-top: 80px;
+              margin-left: 25px;
+              margin-right: auto;
+              padding-right: 0px;
+            ">
+                    <h1 style="
+                margin-top: 25px;
+                margin-bottom: 25px;
+                color: rgb(252, 252, 252);
+                font-size: 52px;
+              ">
+                       Textile Auxiliaries!
+                    </h1>
+                    <p style="width: 96%;
+                color: rgb(255, 253, 253);
+                margin-bottom: 25px;
+                height: auto;
+              ">
+                       Our relentless dedication to sustainability and innovation propelsus to spearhead a remarkable revolution in the industry.
+                    </p>
+
+                </div>
+                <!-- End: Text -->
+            </div>
+        </div>
+        <!-- End: Header -->
+    </div>
+    <!-- End: NMDIGbanner -->
+
+
+    <div class="col-md-12" style="padding-top: 10px">
+
+        <!-- marqueeeeeeeeeeeeee----------------------------=============  -->
+
+        <div style="overflow: hidden;">
+            <div style="display: flex; animation: scroll-left 30s linear infinite;">
+               
+               
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/texman special s1.png" alt="Image 6" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/finshing s1.png" alt="Image 4" >
+                </div>
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/fatty s1.png" alt="Image 5" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+              
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/enzym s1.png" alt="Image 3" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/dying s1.png" alt="Image 2" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/textile pre treatment seris.png" alt="Image 1" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+                <div style="margin-right: 20px; overflow: hidden;">
+                    <img src="./assets/img/Auxiliary img/texman.png" alt="Image 7" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                </div>
+               
+            </div>
+        </div>
+        
+        <style>
+            @keyframes scroll-left {
+                0%   { transform: translateX(-100%); }
+                100% { transform: translateX(100%); }
+            }
+        </style>
+        
+        
+        
+        
+
+        
+        
+        
+        <!-- Start: PS Cinel cursos heading -->
+        <h1 class="section-heading bg-light" style="color: #446085">
+            Exhuast Dyeing
+        </h1>
+        <h4 style="width: 100%; color: aliceblue">
+            Amacrone EXWN Series for Economical High Fastness
+        </h4>
+        <!-- <h1 class="display-3 text-uppercase" style="padding-right: 10px;padding-bottom: 10px;">CINEL cursos</h1> -->
+        <hr />
+        <!-- End: PS Cinel cursos heading -->
+        <!-- <hr > -->
+
+        <div class="container-md">
+            <div class="row">
+                <div class="col-sm-3 col-xs-12">
+                    <ul class="nav nav-tabs tabs-left sideways">
+
+                        <li class="active">
+                            <a href="#home-v" style="border-radius: 8px" data-toggle="tab">Textile Pretreatment Series</a>
+                        </li>
+                        <li>
+                            <a href="#profile-v" style="border-radius: 8px" data-toggle="tab">Amacrone H/ENF Disperse Dyes </a>
+                        </li>
+
+                        <li>
+                            <a href="#reactiv-v" style="border-radius: 8px" data-toggle="tab">Amacrone E-Type Trichromatric Combination</a>
+                        </li>
+                        <li>
+                            <a href="#disperse-v" style="border-radius: 8px" data-toggle="tab">
+                                Amacrone S Type Trichromatric Combination</a>
+                        </li>
+                        <li>
+                            <a href="#HS-Series" style="border-radius: 8px" data-toggle="tab">
+                                Amacrone Luminous Disperse Dyes</a>
+                        </li>
+                        <li>
+                            <a href="#series-v" style="border-radius: 8px" data-toggle="tab">Amacrone Supplimantry Dyes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#BI-D" style="border-radius: 8px" data-toggle="tab">Bi-Functional Group D
+                                Series</a>
+                        </li>
+                        <li>
+                            <a href="#BI-HE" style="border-radius: 8px" data-toggle="tab">Bi-Functional Group HE
+                                Series</a>
+                        </li>
+                        <li>
+                            <a href="#BI-EDP" style="border-radius: 8px" data-toggle="tab">Deep Shades ED-P Series</a>
+                        </li>
+                        <li>
+                            <a href="#series-EGB" style="border-radius: 8px" data-toggle="tab">Deep Shades EGB
+
+                                Series</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#series-EGB " style="border-radius: 8px" data-toggle="tab">Deep Shades EGB
+
+                                Series</a>
+                        </li> -->
+
+                        <li>
+                            <a href="#series-TC" style="border-radius: 8px" data-toggle="tab">Trichromatic Combination
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#series-con" style="border-radius: 8px" data-toggle="tab">
+                                Continuous Dyeing Process Recommendation
+                            </a>
+                        </li>
+                        <!-- <li><a href="#series-v" style="border-radius:8px;" data-toggle="tab">100</a></li> -->
+                        <br><br><br><br> <br><br><br><br>
+                    </ul>
+                </div>
+                <!-- second column ------------------------======  -->
+                <div class="col-sm-4 col-lg-4 col-xs-12">
+                    <div class="tab-content" style="padding-top: 10px">
+                        <div class="tab-pane active" id="home-v">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: #446085;
+                  ">
+                              Textile Pretreatment Series
+                            </h4>
+
+                           
+                            <img src="./assets/img/Auxiliary img/PRE Trrtment .png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Dyes product image"
+                                class="img-responsive" />
+
+                        </div>
+
+                        <!-- second 2 img============  -->
+                        <div class="tab-pane" id="profile-v">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color:#446085;
+                  ">
+                              Amacrone H/ENF Disperse Dyes
+                            </h4>
+
+                            <img src="./assets/img/Dispers img/Amacrone ENF.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Dyes product image"
+                                class="img-responsive" />
+
+                        </div>
+                        <!-- 3rd ================  -->
+                        <div class="tab-pane" id="reactiv-v">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: #446085;
+                  ">Amacrone E-Type Trichromatric Combination
+                            </h4>
+                            <img src="./assets/img/Dispers img/amacrone E TYPE AND S.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Reactiv Dyes image"
+                                class="img-responsive" />
+                        </div>
+
+
+                        <!-- 4th ==============================  -->
+                        <div class="tab-pane" id="disperse-v">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: #446085;
+                  ">
+                               Amacrone S Type Trichromatric Combination
+                            </h4>
+                            <img src="./assets/img/Dispers img/amacrone TYPE  S 00.png "
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Disperse Dyes image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 5th ========   =================  -->
+                        <div class="tab-pane" id="HS-Series">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color:#446085;
+                  ">
+                               Amacrone Luminous Disperse Dyes
+                            </h4>
+                            <img src="./assets/img/Dispers img/Amacron Luminous.png "
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Dyes image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 6yh medium ==================  -->
+                        <div class="tab-pane" id="series-v">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color:#446085;
+                  ">
+                               Amacrone Supplimantry Dyes
+                            </h4>
+
+                            <img src="./assets/img/Dispers img/Suplimantry.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                           
+                            <h1></h1>
+                            <img src="./assets/img/Dispers img/Suplimantry1.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                           
+
+
+                        </div>
+
+                        <!-- 7yh BI-D ==================  -->
+                        <div class="tab-pane" id="BI-D">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: rgb(42, 47, 120);
+                  ">
+                                Bi-Functional Group D Series
+                            </h4>
+                            <img src="./assets/img/reactiv imges/b-f d series 2.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 8yh ==================  -->
+                        <div class="tab-pane" id="BI-HE">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: rgb(42, 47, 120);
+                  ">
+                                Bi-Functional Group HE Series
+                            </h4>
+                            <img src="./assets/img/reactiv imges/HE1.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 9yh ================== Deep Shades ED-p Series -->
+                        <div class="tab-pane" id="BI-EDP">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: rgb(42, 47, 120);
+                  ">
+                                Deep Shades ED-P Series
+                            </h4>
+                            <img src="./assets/img/reactiv imges/EDP series.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 10yh ==================EGB  -->
+                        <div class="tab-pane" id="series-EGB">
+                            <h4 style="
+                    color: rgb(246, 246, 247);
+                    font-size: larger;
+                    font-weight: bold;
+                    border-radius: -47px;
+                    width: 80%;
+                    background-color: rgb(42, 47, 120);
+                  ">
+                                Deep Shades EGB Series
+                            </h4>
+                            <img src="./assets/img/reactiv imges/EGP1.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 10yh ================== Trichromatic Combination  -->
+                        <div class="tab-pane" id="series-TC">
+                            <h4 style="
+        color: rgb(246, 246, 247);
+        font-size: larger;
+        font-weight: bold;
+        border-radius: -47px;
+        width: 80%;
+        background-color: rgb(42, 47, 120);
+      ">
+                                Trichromatic Combination
+                            </h4>
+                            <img src="./assets/img/reactiv imges/TC.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            <br>
+                            <h1 style="width: 80%;"></h1>
+                            <img src="./assets/img/reactiv imges/TC1.png"
+                                style="height: auto; width:80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- 10yh ==================EGB  -->
+                        <div class="tab-pane" id="series-con">
+                            <h4 style="
+        color: rgb(246, 246, 247);
+        font-size: larger;
+        font-weight: bold;
+        border-radius: -47px;
+        width: 80%;
+        background-color: rgb(42, 47, 120);
+      ">
+                                Continuous Dyeing Process Recommendation
+                            </h4>
+                            <img src="./assets/img/reactiv imges/cd process recommendation.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- second div collumn -->
+                <div class="col-sm-5 col-xs-12">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home-v-info">
+                            <!-- <h4 >Trichromatic Combination for light Shades with High Fastnesses Properties</h4> -->
+                            <br />
+
+
+                            <img src="./assets/img/Auxiliary img/PRE Trrtment 1.png"
+                            style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                            class="img-responsive" />
+                            <h1></h1>
+
+                            <img src="./assets/img/Dispers img/d4.jpg"
+                            style="height: auto; width: 100%; border-radius: 10px" alt="Series image"
+                            class="img-responsive" />
+
+                            <!-- ===========  -->
+
+                            <br />
+                           
+                        </div>
+                        <!-- 2=========================  -->
+                        <div class="tab-pane" id="profile-v-info">
+                           
+                           
+                            <img src="./assets/img/Dispers img/Amacrone ENF1.png"
+                            style="height: auto; width: 100%; border-radius: 10px" alt="Series image"
+                            class="img-responsive" />
+                            
+                        </div>
+                        <br />
+                        <!-- 3========  -->
+                        <div class="tab-pane" id="reactiv-v-info">
+                          
+                           <img src="./assets/img/Dispers img/amacrone E TYPE 1.png"
+                           style="height: auto; width: 80%; border-radius: 10px" alt="Series image"
+                           class="img-responsive" />
+                            <br />
+                            <h1></h1>
+                            <img src="./assets/img/Dispers img/d14.jpg"
+                            style="height: auto; width: 100%; border-radius: 10px" alt="Series image"
+                            class="img-responsive" />
+                            <!-- <ul class="arrow-list">
+                                <li>
+                                    Very good compatibility, medium and low substantivity, Low
+                                    Sensitivity forExhaustion Dyeing
+                                </li>
+                                <li>Excellent washing and rubbing fastnesses</li>
+                                <li>
+                                    Especially in the light colour Trichromatic have Excellent
+                                    reproducibility thancommodities
+                                </li>
+                                <li>Controlled Reaction hence excellent Levelling</li>
+                            </ul> -->
+                        </div>
+                        <!-- ED series========  -->
+                        <div class="tab-pane arrow-list" id="disperse-v-info">
+                            <span>
+                               
+
+                               
+                                <img src="./assets/img/Dispers img/amacrone TYPE  S.png"
+                            style="height: auto; width: 100%; border-radius: 10px" alt="Series image"
+                            class="img-responsive" />
+
+                                <br />
+
+                                
+                            </span>
+                        </div>
+                        <!-- HS series========  -->
+
+                        <div class="tab-pane" id="HS-Series-info">
+                            <!-- <span>HS-Series</span> -->
+
+                           
+                         
+                            <br />
+                            <img src="./assets/img/Dispers img/Luminous1.png"
+                                style="height: auto; width: 80%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            
+                                <h1></h1>
+                        </div>
+                        <br />
+
+                        <!-- medium series========  -->
+                        <div class="tab-pane" id="series-v-info">
+
+                            <img src="./assets/img/Dispers img/Suplimantry2.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                           
+
+                           <h1></h1>
+                           <img src="./assets/img/Dispers img/dying.png"
+                           style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                           class="img-responsive" />
+                           <h1></h1>
+                           <img src="./assets/img/Dispers img/dying1.png"
+                           style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                           class="img-responsive" />
+                           <h1></h1>
+
+                           <img src="./assets/img/Dispers img/d5.jpg"
+                           style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                           class="img-responsive" />
+
+                           <h1></h1>
+                           <img src="./assets/img/Dispers img/d11.jpg"
+                           style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                           class="img-responsive" />
+                        </div>
+
+                        <!-- BI series== D======  -->
+                        <div class="tab-pane" id="BI-D-info">
+                            <!-- <span>BI-D.</span> -->
+                            <h4 style="
+      background: var(--bs-border-color-translucent);
+      border-radius: -47px;
+    ">
+                                BI-D Reactive Dyes
+                            </h4>
+
+                            <br>
+                            <img src="./assets/img/reactiv imges/b-d series.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            <br>
+                            <!-- <h1></h1> -->
+                            <img src="./assets/img/reactiv imges/d4.jpg"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            <br>
+                            <!-- <h1></h1> -->
+                            <!-- <img src="./assets/img/reactiv imges/d5.jpg"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" /> -->
+                        </div>
+
+                        <!-- B-1 HE series=  BI-D =======  -->
+                        <div class="tab-pane" id="BI-HE-info">
+                            <!-- <span>BI-HE.</span> -->
+                            <h4 style="
+      background: var(--bs-border-color-translucent);
+      border-radius: -47px;
+    ">
+                                BI-HE Reactive Dyes
+                            </h4>
+                            <br />
+
+                            <ul class="arrow-list" style="text-align: justify">
+                                <li>
+                                    Excellent of the high-temperature (80 C) dyes, process stability
+                                </li>
+
+                                <li>
+                                    Dyeing with good reproducibility
+
+
+                                </li>
+                                <li> Excellent leveling</li>
+                                <li>
+                                    Good permeability and diffuse, shade buildup
+                                </li>
+
+                                <li> Excellent alkali stability, dye selection for post-mercerization</li>
+                                <!-- <hr style="color: #111648" />
+                                <li>
+                                    Recommended Trichromatic combination
+                                </li>
+                                <li>Recommended very deep Trichromatic combinatior</li> -->
+
+
+                            </ul>
+
+                            <h1></h1>
+                            <img src="./assets/img/reactiv imges/HE.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                        <!-- continous dying -----------------------= start  -->
+                        <!-- EDP group series========  -->
+                        <div class="tab-pane" id="BI-EDP-info">
+                            <!-- <span>BI-EDP group.</span> -->
+                            <h4 style="
+      background: var(--bs-border-color-translucent);
+      border-radius: -47px;
+    ">
+                                BI-EDP Reactive Dyes
+                            </h4>
+                            <br>
+                            <img src="./assets/img/reactiv imges/EDP 1.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            <br>
+                            <!-- <img src="./assets/img/reactiv imges/d6.jpg"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" /> -->
+                            <br>
+
+                        </div>
+
+
+                        <!-- EGP================================  -->
+
+                        <div class="tab-pane" id="series-EGB-info">
+                            <h1></h1>
+
+                            <h4 style="background: var(--bs-border-color-translucent);   border-radius: -47px;  ">
+                                BI-EGB Reactive Dyes
+                            </h4>
+                            <br>
+                            <img src="./assets/img/reactiv imges/EGP.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+
+
+                        </div>
+                        <!-- TRICHROMATIC COMBINATION================================  -->
+                        <div class="tab-pane" id="series-TC-info">
+
+                            <h4 style="
+background: var(--bs-border-color-translucent);
+border-radius: -47px;
+">
+                                TRICHROMATIC COMBINATION
+                            </h4>
+                            <br>
+                            <img src="./assets/img/reactiv imges/TC2.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                            <br>
+
+                            <br>
+
+                        </div>
+
+
+                        <div class="tab-pane" id="series-con-info">
+                            <h4 style="
+        color: rgb(246, 246, 247);
+        font-size: larger;
+        font-weight: bold;
+        border-radius: -47px;
+        width: 80%;
+        background-color: #446085;
+      ">
+                                Exhaustion Dyeing Process Recommendation
+                            </h4>
+                            <img src="./assets/img/reactiv imges/EXHUSTING RECOMMEND.png"
+                                style="height: auto; width: 100%; border-radius: 20px" alt="Series image"
+                                class="img-responsive" />
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+                var target = $(e.target).attr("href"); // activated tab
+                var targetInfo = target + "-info";
+                $(".tab-pane").removeClass("active");
+                $(target).addClass("active");
+                $(targetInfo).addClass("active");
+            });
+        });
+    </script>
+
+    <!-- end tabs =================================  -->
+    <br />
+    <section style="padding-top: 100px">
+        <div class="col-12"><br /></div>
+    </section>
+    <div class="pg-footer">
+        <footer class="footer-content-column" style="height: auto; width: 100%; padding-top: 100px">
+            <!-- Start: ♣ Login form Page BS4 ♣ -->
+            <div class="container-fluid"></div>
+            <!-- End: ♣ Login form Page BS4 ♣ -->
+            <!-- Start: ♣ Login form Page BS4 ♣ -->
+            <div class="container-fluid"></div>
+            <!-- End: ♣ Login form Page BS4 ♣ -->
+            <!-- Start: ♣ Footer with only BS4 classes ♣ -->
+            <footer class="bg-dark text-white border-top border-info">
+                <!-- Start: Footer 1 -->
+                <div class="container text-center text-sm-start position-relative py-5">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-info pb-2 border-bottom border-info">
+                                Lorem Ipsum
+                            </h3>
+                            <ul class="list-unstyled d-inline-block d-sm-block">
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Expers cum eodem</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Sensim fame petivere</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Minimumque</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Vulgasset ut solent</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-info pb-2 border-bottom border-info">
+                                Lorem Ipsum
+                            </h3>
+                            <ul class="list-unstyled d-inline-block d-sm-block">
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Expers cum eodem</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Vulgasset ut solent</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Sensim fame petivere</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Minimumque</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-info pb-2 border-bottom border-info">
+                                Lorem Ipsum
+                            </h3>
+                            <ul class="list-unstyled d-inline-block d-sm-block">
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Expers cum eodem</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Minimumque</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Sensim fame petivere</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Vulgasset ut solent</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-info pb-2 border-bottom border-info">
+                                Lorem Ipsum
+                            </h3>
+                            <ul class="list-unstyled d-inline-block d-sm-block">
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Minimumque</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Sensim fame petivere</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Vulgasset ut solent</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="link-light" href="#">Expers cum eodem</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Start: To top icon -->
+
+                    <div class="text-center position-absolute w-100 mt-4">
+                        <a href="#top"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-dark"></i><i
+                                    class="fa fa-angle-up fa-stack-1x text-white"></i></span></a>
+                    </div>
+                    <!-- End: To top icon -->
+                </div>
+                <!-- End: Footer 1 -->
+                <!-- Start: Footer 2 -->
+                <div class="pt-5 pb-4 bg-info text-dark">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Start: Company -->
+                            <div class="col-md-6 col-lg-4 text-start text-center text-md-start pb-4"
+                                style="text-align: center">
+                                <h2 class="mb-3" style="padding-left: 0px; text-align: center"></h2>
+                                <!-- Start: Image Tilt -->
+                                <div class="d-flex justify-content-center align-items-center tilt-container"
+                                    data-tilt="">
+                                    <!-- <img class="img-fluid"
+                                        src="/assets/img/ALL%20page%20txmn/busines%20area/Screenshot_2024-06-12_103027-removebg-preview.png?h=3954556f0b609bb4a642fd2f029936d0"
+                                        alt="Layer 1" loading="lazy" width="146" height="146" /> -->
+                                </div>
+                                <!-- End: Image Tilt -->
+                                <p class="mb-1" style="padding-top: 40px">
+                                    <i class="fa fa-map-marker fa-fw"></i>&nbsp;Royal Road -
+                                    Tamarin - Mauritius
+                                </p>
+                                <p class="mb-1">
+                                    <i class="fa fa-phone fa-fw"></i>&nbsp;+230 12 34 56 78
+                                </p>
+                                <p class="mb-1">
+                                    <i class="fa fa-envelope fa-fw"></i>&nbsp;<a class="text-dark"
+                                        href="mailto:contact@company.com">contact@company.com</a>
+                                </p>
+                            </div>
+                            <!-- End: Company -->
+                            <!-- Start: Text -->
+                            <div class="col-md-6 col-lg-4 text-center text-md-start pb-4">
+                                <p class="my-3">
+                                    Post quorum necem nihilo lenius ferociens Gallus ut leo
+                                    cadaveribus pastus multa huius modi scrutabatur. quae
+                                    singula narrare non refert, me professione modum, quod
+                                    evitandum est, excedamus.
+                                </p>
+                            </div>
+                            <!-- End: Text -->
+                            <!-- Start: Newsletter + social icons -->
+                            <div class="col-lg-4 text-center text-lg-end pb-4">
+                                <h3 class="mb-0">Follow us</h3>
+                                <p class="mb-2">Subscribe to our newsletter</p>
+                                <form class="d-flex justify-content-center justify-content-lg-end">
+                                    <div class="w-75 form-group mb-3">
+                                        <div class="input-group">
+                                            <input class="form-control" type="text" required="" placeholder="Your email"
+                                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$"
+                                                inputmode="email" /><button class="btn btn-dark" type="submit">
+                                                Go!
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- Start: Socials -->
+                                <div>
+                                    <a class="text-dark mx-2 mx-lg-0 ms-lg-3" href="#"><i
+                                            class="fa fa-instagram fa-2x"></i></a><a
+                                        class="text-dark mx-2 mx-lg-0 ms-lg-3" href="#"><i
+                                            class="fa fa-twitter fa-2x"></i></a><a
+                                        class="text-dark mx-2 mx-lg-0 ms-lg-3" href="#"><i
+                                            class="fa fa-facebook-square fa-2x"></i></a><a
+                                        class="text-dark mx-2 mx-lg-0 ms-lg-3" href="#"><i
+                                            class="fa fa-snapchat-ghost fa-2x"></i></a>
+                                </div>
+                                <!-- End: Socials -->
+                            </div>
+                            <!-- End: Newsletter + social icons -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Footer 2 -->
+                <!-- Start: Copyright -->
+                <div class="text-center text-lg-start py-2 small bg-dark text-info fst-italic">
+                    <div class="container">
+                        <p class="m-0">© 2018 Company ~ All rights reserved</p>
+                    </div>
+                </div>
+                <!-- End: Copyright -->
+            </footer>
+            <!-- End: ♣ Footer with only BS4 classes ♣ -->
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.min.js?h=ee49e4b421a33c2774a60d2276cb9bf9"></script>
+</body>
+
+</html>
